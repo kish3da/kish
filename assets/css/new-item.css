@@ -1,0 +1,68 @@
+.paragraph-text{
+    font-size: 12px;
+}
+.content{
+    justify-content: space-around;
+   
+}
+.input input[type="text"]{ 
+    width: 350px;
+    border: 1px solid #ccc;
+}
+
+.input  input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 2px solid #363636;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  }
+  
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+ .input input[type="checkbox"]::before {
+
+    background-color: #0fff;
+  }
+ .input input[type="checkbox"]::before {
+   
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  }
+.input input[type="checkbox"] {
+   
+    display: grid;
+    place-content: center;
+}
+
+.input input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(#0ff);
+}
+  
+.input input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+.description input[type="text"], .price-input input[type="text"]{ 
+  padding: 3px;
+   border: 1px solid #ccc;
+ }  
+.category  select, .tax-code select{
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+ 
+  
+  

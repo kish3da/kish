@@ -1,0 +1,298 @@
+*{
+    font-family: poppins;
+   
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+.content{
+    background-image: url(../images/audit-b/Man.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 150px;
+}
+
+.header{
+    background-color: #37c8c3 ;
+   
+   
+    
+}
+.header a p img{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.header a p{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.header ul li{
+    color: #eee;
+    font-size: 12px;
+}
+h6{
+    color: #707070;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    
+}
+.title img{
+    
+    height: 40px;
+    padding-left: 50px;
+   
+}
+.title p{
+    
+    font-size: 30px;
+
+}
+.header .icon{
+    padding-right: 50px;
+    
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+   
+}
+.header .icon i{
+    font-size: 18px;
+}
+.dropdown button{
+    font-size: 14px;
+}
+.new-invoice{
+    display: block;
+    border: solid 1px #dadada;
+    background-color: rgba(255, 255, 255, 0.87); 
+   justify-content: center;
+   align-content: center;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    z-index: 1;
+ 
+}
+.new-invoice .cust-in{
+    font-size: 14px;
+}
+.new-invoice .row-cols-1 p{
+    font-size: 10px;
+}
+.list ul{
+    align-items: center;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.row1 h6{
+    font-size: 18px;
+}
+.row1 .form-select{
+    border: 1px solid #dadada;
+    color: #dadada;
+
+}
+.row1 .col2 .lorem label{
+    display: none;
+}
+.row1 .col2 input[type="text"]{
+    width: 90%;
+    border: 1px solid #dadada;
+    line-height: 30px;
+    
+}
+.new-invoice ::placeholder{
+    color: #dadada;
+   padding: 8px;
+   font-size: 10px;
+}
+.row1 .col2 .row{
+    font-size: 14px;
+    font: normal normal normal Poppins;
+    letter-spacing: 0.28px;
+   
+}
+.row1 .col2 .row input[type="text"]{
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+   border-bottom: 1px solid #dadada;
+}
+.row1 .col2 .row label{
+     color: #363636;
+    
+}
+
+.row2-table{
+   
+    position: relative;
+   
+}
+.row2-table table th, .row2-table table td{
+    font-size: 10px;
+}
+
+.row2-table td{
+    color: #dadada;
+}
+.row2-table td label {
+    color: #363636;
+
+}
+
+.row2 table thead th{
+    color: #363636;
+}
+.row2-table input[type="number"]{
+    color: #363636;
+  
+
+}
+.row2-table input[type="text"]{
+    border: none;
+    width: 100%;
+    height: 34px;
+}
+
+.row3-table table th, .row3-table .table td{
+    font-size: 18px;
+    color: #363636;
+   padding: 20px;
+   font-size: 12px;
+}
+
+.row3-table table tr:first-child, .row3-table table tr:nth-child(4){
+    background-color: #E0FFFE;
+
+}
+.buttons button{
+    border: none;
+   
+}
+.row3 .attachment, .row3 .receipt{
+    display: block;
+    border: 1px solid #ccc;
+}
+.attachment h6, .receipt h6{
+    background-color: #37c8c3;
+    opacity: .6;
+}
+.attachment label{
+    font-size: 12px;
+}
+.attachment .action-btn input[type="file"] {
+    display: none;
+ 
+}/*
+.attachment .btn{
+    background-color: green;
+   
+}*/
+.attachment .icons{
+    line-height: 40px;
+}
+.attachment p{
+    font-size: 10px;
+}
+.attachment .input{
+    line-height: 0px;
+}
+.attachment input[type="text"]{
+    width: 100%;
+}
+.receipt .trade, .receipt .select{
+    line-height: 2px;
+}
+.receipt select{
+    font-size: 12px;
+    padding-left: 2px;
+}
+.receipt ::placeholder{
+    text-align: right;
+    font-size: 12px;
+
+}
+@media screen and (max-width: 1200px){
+    .attachment label{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .row2-table {
+        overflow-x: scroll;
+       
+    }
+    .attachment label{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 770px) {
+
+    
+	.row2-table table,
+     .row2-table table thead,
+     .row2-table table  tbody,
+     .row2-table table th, 
+     .row2-table table td,
+     .row2-table table tr { 
+		display: block; 
+	}
+	
+	.row2-table table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.row2-table table thead th{
+        color: #363636;
+    }
+    .row2-table table tbody td i{
+        justify-content: center;
+        align-items: center;
+    }
+	
+	
+	.row2-table table tbody td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	.row2-table table td, label{
+        color: #363636;
+    }
+	.row2-table table td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+	.row2-table table td:nth-of-type(1):before { content: "Item"; }
+	.row2-table table td:nth-of-type(2):before { content: "Quantity"; }
+	.row2-table table td:nth-of-type(3):before { content: "Category"; }
+	.row2-table table td:nth-of-type(4):before { content: "Price(&#163;)";}
+    .row2-table table td:nth-of-type(5):before { content: "Discount(&#163;)";}
+	.row2-table table td:nth-of-type(6):before { content: "Net(&#163;)"; }
+	.row2-table table td:nth-of-type(7):before { content: "Tax Code"; }
+	.row2-table table td:nth-of-type(8):before { content: "Tax"; }
+	.row2-table table td:nth-of-type(9):before { content: "Total"; }
+     
+
+     
+    
+    
+	
+}
+

@@ -1,0 +1,181 @@
+*{
+    font-family: poppins;
+   
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+.content{
+    background-image: url(../images/audit-b/Man.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 150px;
+ 
+}
+.new-invoice{
+    display: block;
+    border: solid 1px #dadada;
+    
+    background-color: rgba(255, 255, 255, 0.87);
+   
+   justify-content: center;
+   align-content: center;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    z-index: 1;
+ 
+}
+.header{
+    background-color: #37c8c3 ;
+   
+   
+    
+}
+.header a p img{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.header a p{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.header ul li{
+    color: #eee;
+    font-size: 12px;
+}
+
+.title img{
+    
+    height: 40px;
+    padding-left: 50px;
+    padding-top: px;
+   
+}
+.title p{
+    
+    font-size: 30px;
+
+}
+.icon{
+    padding-right: 50px;
+    
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+   
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+   
+}
+.header .icon i{
+    font-size: 18px;
+}
+.dropdown button{
+    font-size: 14px;
+}
+.list ul{
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.links a{
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+}
+table tr th, td{
+    padding: 10px;
+    font-size: 12px;
+    
+}
+.page-num button{
+    border-radius: 5px;
+    background-color: #707070;
+    
+}
+.page-num button i{
+    font-size: 30px;
+    color: #fff;
+   
+   
+}
+.description a{
+    text-decoration: none;
+    color: #37c8c3;
+}
+
+@media screen and (max-width: 750px) {
+
+    
+	 table,
+     table thead,
+     table  tbody,
+     table th, 
+     table td,
+     table tr { 
+		display: block; 
+	}
+	.thead{
+        display: none;
+    }
+	 table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}/*
+	 table thead th{
+        color: #363636;
+    }
+     table tbody td i{
+        justify-content: center;
+        align-items: center;
+    }*/
+	
+	
+        table tbody td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}/*
+	 table td, label{
+        color: #363636;
+    }*/
+	table td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+    table td:nth-of-type(1):before { content: "checkbox"; }
+	 table td:nth-of-type(2):before { content: "Ref"; }
+	 table td:nth-of-type(3):before { content: "Date"; }
+	 table td:nth-of-type(4):before { content: "Type"; }
+	 table td:nth-of-type(5):before { content: "Customer"; }
+	 table td:nth-of-type(6):before { content: "Description"; }
+	 table td:nth-of-type(7):before { content: "Total"; }
+	 table td:nth-of-type(8):before { content: "Status"; }
+	 table td:nth-of-type(9):before { content: "Sent"; }
+     table td:nth-of-type(10):before { content: "Action"; }
+     
+
+     .btn button{
+        width: 300px;
+    }
+     
+    
+    
+	
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kish/static/css/main.ece3757e.css",
+    "main.js": "/kish/static/js/main.09f3e0e1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/kish/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Hero_BG.jpg": "/kish/static/media/Hero_BG.b9687ad2ed9bad035129.jpg",
+    "index.html": "/kish/index.html",
+    "main.ece3757e.css.map": "/kish/static/css/main.ece3757e.css.map",
+    "main.09f3e0e1.js.map": "/kish/static/js/main.09f3e0e1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/kish/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ece3757e.css",
+    "static/js/main.09f3e0e1.js"
+  ]
+}
