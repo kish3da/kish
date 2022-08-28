@@ -1,0 +1,333 @@
+@font-face {
+    font-family: lato;
+    src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: lora;
+    src: url(../fonts/lora/Lora-Regular.ttf);
+}
+.contact-us a{
+   color: #fff;
+   text-decoration: none;
+   font-family: lato;
+   font-size: 12px;
+   display: inline-flex;
+}
+.contact-us a:hover{
+    color: #fff;
+    text-decoration: underline; 
+}
+
+.contact-us a img{
+    width: 20px;
+    height: 15px;
+   
+}
+nav{
+    background-color: #18234C;
+    color: #fff;
+}
+.header-logo img{
+    width: 181px;
+    height: 40px;
+    left: 40px;
+    position: relative;
+}
+.header {
+    float: right;
+}
+
+.header li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: lato;
+    padding: 3px;
+   
+}
+.header a:hover{
+    color: #D7B56D;
+    text-decoration: underline;
+}
+.header a.active {
+    color: #D7B56D !important;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+     
+}
+.header li a:link:active, .header li a:visited:active {
+    color: #D7B56D;
+    text-decoration: underline;
+  }
+.home-page{
+   background-image: url('../images/1.png');
+   background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 300px;
+}
+.home-page .heading h2{
+    margin-top: 250px;
+    position: relative;
+   
+}
+.about-company h1, .our-promise h1{
+    font-family: lora;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+}
+.about-company p, .our-promise p, .mission-text p, .vision-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: poppins;
+}
+.mission-img img, .vision-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.mission-text {
+    background-color: rgb(215, 181, 109, 0.5);
+}
+.vision-text{
+    background-color: #18234C;
+}
+.our-founders h1{
+    font-family: lora;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+}
+.our-founders .managing-director-text, .our-founders .chairman-tex{
+    height: 100px;
+}
+.our-founders .managing-director-text p{
+   
+    background-color: rgb(215, 181, 109, 0.5);
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 20px;
+    margin-top: 12px;
+   
+}
+.our-founders .managing-director img{
+    width: 214px;
+    height: 225px;
+    border-radius: 50%;
+    border: 10px solid rgb(215, 181, 109);
+    float: right;
+}
+.our-founders .managing-director h6{
+   top: 230px;
+   position: relative;
+}
+
+.our-founders .chairman img{
+  margin-top: 10px;
+    width: 214px;
+    height: 225px;
+    border-radius: 50%;
+ 
+    border: 10px solid #D7B56D;
+   
+}
+.our-founders .chairman-text p{
+    
+    background-color: rgb(215, 181, 109, 0.5);
+     font-family: poppins;
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px;
+    
+ }
+ 
+
+
+
+  .rectangle{
+  
+    height: 7px;
+    background-color: #D7B56D;
+    
+ }
+  .footer{
+    background-color: #18234C;
+    opacity: 0.9;
+    padding: 20px;
+   
+ }
+ .footer .social-links img{
+    width: 46px;
+    height: 46px;
+    border: 3px solid #fff;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+ .footer .qr-code img{
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+    object-fit: cover;
+    background-color: #fff;
+ }
+ .footer .social-links i{
+    border: 3px solid #fff;
+    border-radius: 3px;
+    font-size: 40px;
+    color: #fff;
+   
+}
+ .footer .logo img{
+    width: 350px;
+    height: 91px;
+    margin-bottom: 10px;
+    
+ }
+ .footer h4{
+    color: #D7B56D;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+ }
+ .footer-name h6{
+    color: #D7B56D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+ }
+ .footer-name{
+    background-color: #18234C;
+    padding: 16px;
+ }
+ @media screen and (max-width: 992px){
+    .our-founders .managing-director img{
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        border: 10px solid rgb(215, 181, 109);
+        float: right;
+        align-content: center;
+        justify-content: center;
+    }
+    .our-founders .managing-director h6{
+        top: 230px;
+        position: relative;
+     }
+     
+     .our-founders .chairman img{
+       margin-top: 10px;
+         width: 190px;
+         height: 190px;
+         border-radius: 50%;
+      
+         border: 10px solid #D7B56D;
+        
+     }
+     .chairman{
+        margin-top: 30px;
+     }
+     .our-founders .chairman-text{
+        margin-top: 20px;
+        margin-left: 5px
+     }
+     .our-founders .managing-director-text{
+        margin-top: 40px;
+        margin-left: 5px
+     }
+ }
+ @media screen and (max-width: 768px){
+    .our-founders .managing-director img{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: 10px solid rgb(215, 181, 109);
+        float: right;
+        align-content: center;
+        justify-content: center;
+    }
+    .our-founders .managing-director h6{
+        top: 170px;
+        position: relative;
+     }
+     
+     .our-founders .chairman img{
+       margin-top: 60px;
+         width: 170px;
+         height: 170px;
+         border-radius: 50%;
+      
+         border: 10px solid #D7B56D;
+        
+     }
+     .chairman{
+        margin-top: 30px;
+     }
+     .our-founders .chairman-text{
+        margin-top: 0px;
+        margin-left: 0px
+     }
+     .our-founders .managing-director-text{
+        margin-top: 0px;
+        margin-left: 5px
+     }
+ }
+ @media screen and (max-width: 576px){
+    .our-founders .managing-director h6{
+        top: 215px;
+        position: relative;
+     }
+ }
+ @media screen and (max-width: 553px){
+    .chairman{
+        margin-top: 70px;
+    }
+    .about-company h1, .our-promise h1{
+        font-family: lora;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .about-company p, .our-promise p, .mission-text p, .vision-text p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        font-family: poppins;
+    }
+    .our-founders h1{
+        font-family: lora;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .our-founders .managing-director-text p{
+   
+        background-color: rgb(215, 181, 109, 0.5);
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 32px;
+        padding: 20px;
+        margin-top: 12px;
+       
+    }
+    .our-founders .chairman-text p{
+    
+        background-color: rgb(215, 181, 109, 0.5);
+         font-family: poppins;
+         font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        padding: 10px;
+        
+     }
+ }

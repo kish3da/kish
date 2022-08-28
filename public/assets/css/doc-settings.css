@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+body{
+    background-color: #c6c6c6;
+}
+.section {
+    display: block;
+    border: 1px solid #c6c6c6;
+   width: 700px;
+    background-color: #fff;
+    padding: 60px;
+    
+   
+    margin: 0 auto;
+}
+.section h3{
+    padding-bottom: 10px;
+
+}
+.doc-list ul{
+    list-style: none;
+    display: inline-flex;
+    justify-items: space-between;
+    align-items: center;
+    
+    margin: 10px;
+    padding: 0  20px;
+    
+    
+
+   
+}
+.doc-list ul li{
+   margin: 0 8px ;
+   font-size: 14px;
+  
+}
+.doc-list ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.doc-list  ul li:first-child{
+    background-color: #bdbcbc;
+    display: block;
+    padding: 8px 5px;
+  }
+
+.doc-form{
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+.content{
+    margin-left: 100px;
+}
+.form-row {
+    display: flex;
+    line-height: 25px;
+   
+}
+
+
+.form-row .label{
+    align-items: center;
+    width: 50%;
+}
+ .form-row .input{
+    width: 50%;
+    margin-left: 50px;
+    
+ }
+
+.input input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background-color: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: 0.5s;
+   
+    
+}
+
+.input input:checked[type="checkbox"]{
+    background-color: #03a9f4;
+
+}
+.input input[type="checkbox"]:before{
+   content: '';
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   top: 0;
+   left: 0;
+   background-color: #fff;
+   transform: scale(1,1);
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   transition: 0.5s;
+   
+ 
+}
+.input input:checked[type="checkbox"]:before{
+    left: 20px;  
+    
+}
+.input input[type="text"]{
+    width: 20px;
+    padding: 8px;
+    border: 1px solid #363636;
+    text-align: center;
+}
+.input select{
+    width: 100%;
+    border: 1px solid #c6c6c6;
+    color: #363636;
+    padding: 5px 13px;
+    
+    margin-bottom: 5px;
+   
+    
+}
+.input select option{
+    padding-right: 50px;
+}
+
+.message textarea{
+   margin-top: 10px;
+
+}
+.action-btn{
+    text-align: end;
+    margin-top: 30px;
+
+}
+.action-btn .save-btn{
+   background-color: rgb(43, 107, 185);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    margin-right: 20px;
+}
+.action-btn .cancel-btn{
+    background-color: rgba(234, 48, 48, 0.9);
+    padding: 10px;
+    color: #fff;
+    border: none;
+}
+@media screen and (max-width: 1350px) {
+    .section{
+        width: 600px;
+    }
+    .doc-form{
+       
+        font-size: 11px;
+    }
+    .message textarea{
+        
+        width: 510px;
+        
+    
+    }
+    ul li{
+       
+        font-size: 11px;
+       
+     }
+}
+@media screen and (max-width: 900px){
+    .section h3{
+        text-align: center;
+    }
+} 
+@media screen and (max-width: 750px){
+    .form-row {
+        display: inline;
+       
+    }
+    .form-row .label{
+       
+        width: 100%;
+    }
+    .form-row .input{
+        width: 100%;
+       margin-left: 0;
+        
+    }
+    .doc-list ul{
+        margin: 5px;
+        padding: 0  10px;
+       
+    }
+    .doc-list ul li{
+        margin: 0 6px ;
+        font-size: 12px;
+       
+     }
+    .action-btn{
+        text-align: center;
+        margin-top: 15px;
+    
+    }
+    .message textarea{
+        width: 300px;
+     
+     }
+}
