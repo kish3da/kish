@@ -130,7 +130,7 @@ export default function Home() {
                             
                             <div key={image.id} className={`${applyColumnWidth(i)} mb-3`}  >
                             <a href={`/project/${image.imageName}`}>
-                            <img className='image' src={`/project/${image.imageName}`}   alt=""/>
+                            <img className='image' src={require(`../project/${image.imageName}`)}   alt=""/>
                         
                             </a>
                         </div>
